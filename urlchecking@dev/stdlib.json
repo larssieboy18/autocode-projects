@@ -1,0 +1,32 @@
+{
+  "name": "creepertown/urlchecking",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/checkURLs.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/button/unmuteButton.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "unmute_link_sender"
+      }
+    },
+    "functions/events/discord/message/button/banUser.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "ban_link_sender"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "STAFFROLE",
+      "description": "Staff's role ID"
+    },
+    {
+      "name": "LOGCHANNEL",
+      "description": "ID of Your log channel"
+    }
+  ]
+}

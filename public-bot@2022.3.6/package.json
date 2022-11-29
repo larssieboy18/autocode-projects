@@ -1,0 +1,9 @@
+{
+  "name": "public-bot",
+  "author": "Lars <info@creeper.town>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "@top-gg/sdk": "^3.1.3"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "creepertown/timestamp-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/timestamp.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "timestamp"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/command/timezone.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "timezone"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "guildID",
+      "description": "The ID of the guild you want the command to be created in"
+    },
+    {
+      "name": "m3oKey",
+      "description": "Your M3O API-key. Only needed if you want to use the /timezone command. If not needed, input 0"
+    }
+  ]
+}

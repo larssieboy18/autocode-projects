@@ -1,0 +1,229 @@
+{
+  "name": "creepertown/public-bot",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/thread/JoinThreads.js": {
+      "name": "discord.thread.create"
+    },
+    "functions/Moderation/ban.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "ban"
+      }
+    },
+    "functions/Moderation/mute.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "mute"
+      }
+    },
+    "functions/Moderation/kick.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "kick"
+      }
+    },
+    "functions/Moderation/warn.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "warn"
+      }
+    },
+    "functions/Moderation/unban.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "unban"
+      }
+    },
+    "functions/Moderation/unmute.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "unmute"
+      }
+    },
+    "functions/events/discord/bot/guild/joined.js": {
+      "name": "discord.bot.guild.joined"
+    },
+    "functions/Moderation/checkurls/button/unmutebutton.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "unmute_link_sender"
+      }
+    },
+    "functions/Moderation/checkurls/button/banbutton.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "ban_link_sender"
+      }
+    },
+    "functions/events/scheduler/xhourly.js": {
+      "name": "scheduler.xhourly",
+      "subtype": {
+        "frequency": "6 hours",
+        "offset": "00:00 (12:00am)"
+      }
+    },
+    "functions/colours/prompt.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "colour"
+      }
+    },
+    "functions/colours/select-colour.js": {
+      "name": "discord.message.selectmenu.interaction",
+      "subtype": {
+        "custom_id": "colours"
+      }
+    },
+    "functions/Moderation/banlog.js": {
+      "name": "discord.guild.ban.add"
+    },
+    "functions/Moderation/unbanlog.js": {
+      "name": "discord.guild.ban.remove"
+    },
+    "functions/events/discord/thread/create.js": {
+      "name": "discord.thread.create"
+    },
+    "functions/events/discord/command/advancement.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "advancement"
+      }
+    },
+    "functions/events/discord/command/createcommands.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "createcommands"
+      }
+    },
+    "functions/events/discord/command/urbandictionary.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "urbandictionary"
+      }
+    },
+    "functions/events/discord/command/translate.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "translate"
+      }
+    },
+    "functions/events/discord/command/botinfo.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "botinfo"
+      }
+    },
+    "functions/events/discord/command/activity.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "activity"
+      }
+    },
+    "functions/events/discord/command/config.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "config"
+      }
+    },
+    "functions/events/discord/command/covid.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "covid"
+      }
+    },
+    "functions/events/discord/command/skin.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "skin"
+      }
+    },
+    "functions/events/discord/help/page-one.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "help-one"
+      }
+    },
+    "functions/events/discord/help/initial.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "help"
+      }
+    },
+    "functions/events/discord/help/page-two.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "help-two"
+      }
+    },
+    "functions/events/discord/message/button/exit-button.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "exit-button"
+      }
+    },
+    "functions/events/discord/command/xkcd.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "xkcd"
+      }
+    },
+    "functions/events/discord/bot/guild/joined-1.js": {
+      "name": "discord.bot.guild.joined"
+    },
+    "functions/events/discord/command/timestamp.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "timestamp"
+      }
+    },
+    "functions/events/discord/command/timezone.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "timezone"
+      }
+    },
+    "functions/events/discord/message/create/prefix/createcommands.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!createcommands"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "pApiKey",
+      "description": "API key for Phisherman.gg"
+    },
+    {
+      "name": "botname",
+      "description": "Not A Discord Bot"
+    },
+    {
+      "name": "dApiKey",
+      "description": "API key for DeepL"
+    },
+    {
+      "name": "topGGtoken",
+      "description": "API token for Top.gg"
+    },
+    {
+      "name": "m3oKey",
+      "description": "M3O API key"
+    },
+    {
+      "name": "discordlistKey",
+      "description": "discordlist.space Key"
+    },
+    {
+      "name": "discordsKey",
+      "description": "discords.com Key"
+    },
+    {
+      "name": "buHeartbeat",
+      "description": "Better Uptime unique Heartbeat URL"
+    }
+  ],
+  "version": "2022.3.6"
+}

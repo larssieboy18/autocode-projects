@@ -1,0 +1,206 @@
+{
+  "functions/events/discord/command/timestamp.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246OTQ3OTk1MDcxMTQyMzE0MDY0OlZENEdZckx4NVRTTUdtYUtJVGJCS0FiMzJBMnY2MG8zWHpSVGtyNE9ObmQ3TktzSFNNaWNocjRWRjdiUDNOVTJkam5jekhwWEl3UHlBd083eG9WbXYwdnc0dFZ4UDlHUnI4c3BPbDRpYkVvR0ZrZWMycUhZZ0JBT2xvbGN2UFdE",
+      "member": {
+        "user": {
+          "username": "Lars.",
+          "public_flags": 64,
+          "id": "119473151913623552",
+          "discriminator": "0018",
+          "avatar": "a_19623777b0e67e64333f007b61f641c9"
+        },
+        "roles": [
+          "927991638012329984",
+          "938559524355334176",
+          "910578751543328808",
+          "922156582341578892",
+          "938559533939302430"
+        ],
+        "premium_since": null,
+        "permissions": "2199023255551",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-11-13T16:50:09.089000+00:00",
+        "is_pending": false,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-GB",
+      "id": "947995071142314064",
+      "guild_locale": "en-US",
+      "guild_id": "909122979844194374",
+      "data": {
+        "type": 1,
+        "options": [
+          {
+            "value": "2022/03/01",
+            "type": 3,
+            "name": "date"
+          },
+          {
+            "value": "00:13",
+            "type": 3,
+            "name": "time"
+          },
+          {
+            "value": "F",
+            "type": 3,
+            "name": "formatting"
+          },
+          {
+            "value": 2,
+            "type": 10,
+            "name": "timezone"
+          }
+        ],
+        "name": "timestamp",
+        "id": "947914995247763487"
+      },
+      "channel_id": "947911220336427038",
+      "application_id": "946448386272411658",
+      "received_at": "2022-02-28T23:13:57.926Z"
+    }
+  },
+  "functions/events/discord/command/timezone.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246OTU3Njk4MDA1NzE5NDcwMDgwOmMzYzMzUkN0T3BoRE5QQ1RWOUtNR0NSMHYyY0I3Z21rdHBVRjI5dW5iWjVneGpiVGhwelQ5T1EyTUZDSVZJeXJqaFozdFB5R3NyWXhrUlZWckw3MjFXOHNKU2p3M005c1pCZ1gzMlI2aEt2SEpVaFNvSmtCQWJ3a1BLaXBsYTF1",
+      "member": {
+        "user": {
+          "username": "Lars.",
+          "public_flags": 64,
+          "id": "119473151913623552",
+          "discriminator": "0018",
+          "avatar": "a_19623777b0e67e64333f007b61f641c9"
+        },
+        "roles": [
+          "927991638012329984",
+          "938559524355334176",
+          "910578751543328808",
+          "922156582341578892",
+          "938559533939302430"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-11-13T16:50:09.089000+00:00",
+        "is_pending": false,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-GB",
+      "id": "957698005719470080",
+      "guild_locale": "en-US",
+      "guild_id": "909122979844194374",
+      "data": {
+        "type": 1,
+        "options": [
+          {
+            "value": "amsterdam",
+            "type": 3,
+            "name": "city"
+          }
+        ],
+        "name": "timezone",
+        "id": "948146872663539723",
+        "guild_id": "909122979844194374"
+      },
+      "channel_id": "909122979844194377",
+      "application_id": "946448386272411658",
+      "received_at": "2022-03-27T17:49:57.796Z"
+    }
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "functions/Moderation/mute.js": {
+    "event": {
+      "id": "0000000000000000",
+      "data": {
+        "id": "0000000000000000",
+        "name": "TEST_COMMAND_NAME",
+        "options": []
+      },
+      "type": 2,
+      "token": "A_UNIQUE_TOKEN",
+      "member": {
+        "deaf": false,
+        "mute": false,
+        "nick": "SAMPLE_USER_NICKNAME",
+        "user": {
+          "id": "0000000000000000",
+          "avatar": null,
+          "username": "SAMPLE_USERNAME",
+          "public_flags": 0,
+          "discriminator": "1234"
+        },
+        "roles": [],
+        "pending": false,
+        "joined_at": "2021-01-01T00:00:00+00:00",
+        "is_pending": false,
+        "permissions": "0000000000",
+        "premium_since": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "CONNECT",
+          "SPEAK",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK"
+        ]
+      },
+      "version": 1,
+      "guild_id": "909122979844194374",
+      "channel_id": "0000000000000000",
+      "received_at": "2021-01-01T00:00:00+00:00"
+    }
+  },
+  "functions/Moderation/ban.js": {
+    "event": {
+      "id": "0000000000000000",
+      "data": {
+        "id": "0000000000000000",
+        "name": "TEST_COMMAND_NAME",
+        "options": []
+      },
+      "type": 2,
+      "token": "A_UNIQUE_TOKEN",
+      "member": {
+        "deaf": false,
+        "mute": false,
+        "nick": "SAMPLE_USER_NICKNAME",
+        "user": {
+          "id": "0000000000000000",
+          "avatar": null,
+          "username": "SAMPLE_USERNAME",
+          "public_flags": 0,
+          "discriminator": "1234"
+        },
+        "roles": [],
+        "pending": false,
+        "joined_at": "2021-01-01T00:00:00+00:00",
+        "is_pending": false,
+        "permissions": "0000000000",
+        "premium_since": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "CONNECT",
+          "SPEAK",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK"
+        ]
+      },
+      "version": 1,
+      "guild_id": "69",
+      "channel_id": "96",
+      "received_at": "2021-01-01T00:00:00+00:00"
+    }
+  },
+  "functions/events/discord/bot/guild/joined.js": {
+    "event": {
+      "application_command_count": 0,
+      "name": "NADB test server",
+      "preferred_locale": "en-US",
+      "description": null,
+      "splash": null,
+      "nsfw_level": 0,
+      "vanity_url_code": null,
+      "members": [
+        {
+          "user": {
+            "username": "Dev bot",
+            "id": "909122631121395764",
+            "discriminator": "9532",
+            "bot": true,
+            "avatar": "20d5dcf4e3a3197004e2c3eeb00f2d5a"
+          },
+          "roles": [
+            "913110508754841654"
+          ],
+          "premium_since": null,
+          "pending": false,
+          "nick": null,
+          "mute": false,
+          "joined_at": "2021-11-24T16:55:10.154838+00:00",
+          "hoisted_role": null,
+          "deaf": false,
+          "communication_disabled_until": null,
+          "avatar": null
+        }
+      ],
+      "large": false,
+      "roles": [
+        {
+          "unicode_emoji": null,
+          "position": 0,
+          "permissions": "1071698660929",
+          "name": "@everyone",
+          "mentionable": false,
+          "managed": false,
+          "id": "909122979844194374",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "position": 7,
+          "permissions": "1071698660929",
+          "name": "Test role 1",
+          "mentionable": false,
+          "managed": false,
+          "id": "909132928859119656",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "position": 6,
+          "permissions": "1071698660929",
+          "name": "Test role 2",
+          "mentionable": false,
+          "managed": false,
+          "id": "909132951214776370",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "position": 5,
+          "permissions": "1071698660929",
+          "name": "Test role 3",
+          "mentionable": false,
+          "managed": false,
+          "id": "909132971288690699",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "position": 4,
+          "permissions": "1071698660929",
+          "name": "Test role 4",
+          "mentionable": false,
+          "managed": false,
+          "id": "909132984114892820",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "position": 3,
+          "permissions": "1071698660929",
+          "name": "Test role 5",
+          "mentionable": false,
+          "managed": false,
+          "id": "909132995909275649",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "position": 2,
+          "permissions": "0",
+          "name": "Staffrole",
+          "mentionable": false,
+          "managed": false,
+          "id": "910578751543328808",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "position": 1,
+          "permissions": "0",
+          "name": "Muterole",
+          "mentionable": false,
+          "managed": false,
+          "id": "910578777627717684",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "tags": {
+            "bot_id": "798840180076969984"
+          },
+          "position": 1,
+          "permissions": "8",
+          "name": "Charged Creeper",
+          "mentionable": false,
+          "managed": true,
+          "id": "910600931832393819",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        },
+        {
+          "unicode_emoji": null,
+          "tags": {
+            "bot_id": "909122631121395764"
+          },
+          "position": 1,
+          "permissions": "8",
+          "name": "Dev bot for NADB",
+          "mentionable": false,
+          "managed": true,
+          "id": "913110508754841654",
+          "icon": null,
+          "hoist": false,
+          "color": 0
+        }
+      ],
+      "joined_at": "2021-11-24T16:55:10.154838+00:00",
+      "icon": null,
+      "channels": [
+        {
+          "type": 4,
+          "position": 0,
+          "permission_overwrites": [],
+          "name": "Text channels",
+          "id": "909122979844194375"
+        },
+        {
+          "type": 4,
+          "position": 0,
+          "permission_overwrites": [],
+          "name": "Voice channels",
+          "id": "909122979844194376"
+        },
+        {
+          "type": 0,
+          "topic": null,
+          "rate_limit_per_user": 0,
+          "position": 0,
+          "permission_overwrites": [],
+          "parent_id": "909122979844194375",
+          "name": "general",
+          "last_message_id": "912823152575389726",
+          "id": "909122979844194377"
+        },
+        {
+          "user_limit": 0,
+          "type": 2,
+          "rtc_region": null,
+          "rate_limit_per_user": 0,
+          "position": 0,
+          "permission_overwrites": [],
+          "parent_id": "909122979844194376",
+          "name": "General",
+          "last_message_id": null,
+          "id": "909122979844194378",
+          "bitrate": 64000
+        },
+        {
+          "type": 0,
+          "topic": null,
+          "rate_limit_per_user": 0,
+          "position": 1,
+          "permission_overwrites": [],
+          "parent_id": "909122979844194375",
+          "nsfw": false,
+          "name": "log",
+          "last_message_id": "912823127174688779",
+          "id": "910578967344447548",
+          "banner": null
+        }
+      ],
+      "emojis": [],
+      "premium_tier": 0,
+      "verification_level": 0,
+      "discovery_splash": null,
+      "mfa_level": 0,
+      "stickers": [],
+      "lazy": true,
+      "features": [],
+      "voice_states": [],
+      "system_channel_flags": 0,
+      "rules_channel_id": null,
+      "afk_channel_id": null,
+      "system_channel_id": "909122979844194377",
+      "threads": [],
+      "banner": null,
+      "application_id": null,
+      "max_members": 250000,
+      "stage_instances": [],
+      "member_count": 4,
+      "application_command_counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "nsfw": false,
+      "public_updates_channel_id": null,
+      "premium_progress_bar_enabled": false,
+      "explicit_content_filter": 0,
+      "premium_subscription_count": 0,
+      "embedded_activities": [],
+      "id": "909122979844194374",
+      "region": "deprecated",
+      "afk_timeout": 300,
+      "max_video_channel_users": 25,
+      "guild_scheduled_events": [],
+      "default_message_notifications": 0,
+      "hub_type": null,
+      "presences": [],
+      "owner_id": "119473151913623552",
+      "guild_hashes": {
+        "version": 1,
+        "roles": {
+          "omitted": false,
+          "hash": "dpydUip9kvY"
+        },
+        "metadata": {
+          "omitted": false,
+          "hash": "OFgzELpTc74"
+        },
+        "channels": {
+          "omitted": false,
+          "hash": "ptke+GCQTJE"
+        }
+      }
+    }
+  },
+  "functions/colours/prompt.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246OTIyMDcyNzA2Mjk4NTU2NDk2OnNWcUdMVEFrdmpsRFFwOEFrSmdJMzRyRlNUQVNKQXBablBscFY3QXVDUFhUWks2MVBNakxpenpFSlRBbm9HdGxiaUJWMnJNZ0VBZU9ZeFRZSE82VDd1V1ROWEZhdHU0Q0tXeWhzRzlJaWlMZWtpelR2RVhJaTZ3dFZIZVJ2YWtm",
+      "member": {
+        "user": {
+          "username": "Lars.",
+          "public_flags": 64,
+          "id": "119473151913623552",
+          "discriminator": "0018",
+          "avatar": "a_19623777b0e67e64333f007b61f641c9"
+        },
+        "roles": [],
+        "premium_since": null,
+        "permissions": "2199023255551",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-11-13T16:50:09.089000+00:00",
+        "is_pending": false,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS"
+        ]
+      },
+      "id": "922072706298556496",
+      "guild_id": "909122979844194374",
+      "data": {
+        "type": 1,
+        "resolved": {
+          "channels": {
+            "909122979844194377": {
+              "type": 0,
+              "permissions": "2199023255551",
+              "parent_id": "909122979844194375",
+              "name": "general",
+              "id": "909122979844194377"
+            }
+          }
+        },
+        "options": [
+          {
+            "type": 1,
+            "options": [
+              {
+                "value": "909122979844194377",
+                "type": 7,
+                "name": "channel"
+              }
+            ],
+            "name": "create"
+          }
+        ],
+        "name": "colour",
+        "id": "922070043779538954"
+      },
+      "channel_id": "910578967344447548",
+      "application_id": "909122631121395764",
+      "received_at": "2021-12-19T10:27:44.560Z"
+    }
+  },
+  "functions/Moderation/unbanlog.js": {
+    "event": {
+      "user": {
+        "username": "aCoolguy63",
+        "public_flags": 0,
+        "id": "793188304764928023",
+        "discriminator": "8503",
+        "avatar": "068c83a0ed3de3c445cc69bb5b1c6a5b"
+      },
+      "guild_id": "909122979844194374"
+    }
+  },
+  "functions/Moderation/banlog.js": {
+    "event": {
+      "user": {
+        "username": "aCoolguy63",
+        "public_flags": 0,
+        "id": "793188304764928023",
+        "discriminator": "8503",
+        "avatar": "068c83a0ed3de3c445cc69bb5b1c6a5b"
+      },
+      "guild_id": "909122979844194374"
+    }
+  },
+  "functions/events/discord/command/advancement.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246OTMzMTMzMzg3ODQ0MTgyMDQ3OnZvS2IwY2tua3QxM3JMU2xkUVpvVDBJZGgxS0xnUUlRd3RzQW1SaG8yMldSemh3eXNWSXYyNU1MTGtzc1FFdE9EaFB1QVVKUk0wSkJyN2huZnVjNGVrRzdrSTJTV3h6NHlOMlN6aFR5bWU1THYzOG5jT2R4b0E1aExVa3ZDMEpN",
+      "member": {
+        "user": {
+          "username": "Lars.",
+          "public_flags": 64,
+          "id": "119473151913623552",
+          "discriminator": "0018",
+          "avatar": "a_19623777b0e67e64333f007b61f641c9"
+        },
+        "roles": [
+          "910578751543328808"
+        ],
+        "premium_since": null,
+        "permissions": "2199023255551",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-11-13T16:50:09.089000+00:00",
+        "is_pending": false,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-GB",
+      "id": "933133387844182047",
+      "guild_locale": "en-US",
+      "guild_id": "909122979844194374",
+      "data": {
+        "type": 1,
+        "options": [
+          {
+            "value": "acacia",
+            "type": 3,
+            "name": "block-type"
+          },
+          {
+            "value": "Title",
+            "type": 3,
+            "name": "title"
+          },
+          {
+            "value": "Lars used spaces",
+            "type": 3,
+            "name": "line1"
+          },
+          {
+            "value": "It is super effective",
+            "type": 3,
+            "name": "line2"
+          }
+        ],
+        "name": "advancement",
+        "id": "933128398983811073"
+      },
+      "channel_id": "909122979844194377",
+      "application_id": "909122631121395764",
+      "received_at": "2022-01-18T22:58:56.504Z"
+    }
+  },
+  "functions/events/discord/command/urbandictionary.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246OTM0NDY2MDU0NTQ4MjI2MDk5Omt1MXRuSGhUblY2QlJ5YnM3U1NNWHo2dkJvV2VVYWhlNHhUQ0lSQjdsOWt3RHFMSnh4a0R6eW01Q3hWT1FPTlFOa0JnQ3RBa3ZucDdmdVI1RjJveEZVWkdTck9kdUdJY3JneGlqNFROYWJkTDF2QnQwbk5HQnl6eGJQTDR4R2hk",
+      "member": {
+        "user": {
+          "username": "Lars.",
+          "public_flags": 64,
+          "id": "119473151913623552",
+          "discriminator": "0018",
+          "avatar": "a_19623777b0e67e64333f007b61f641c9"
+        },
+        "roles": [
+          "910578751543328808"
+        ],
+        "premium_since": null,
+        "permissions": "2199023255551",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-11-13T16:50:09.089000+00:00",
+        "is_pending": false,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-GB",
+      "id": "934466054548226099",
+      "guild_locale": "en-US",
+      "guild_id": "909122979844194374",
+      "data": {
+        "type": 1,
+        "options": [
+          {
+            "value": "Lars",
+            "type": 3,
+            "name": "term"
+          }
+        ],
+        "name": "urbandictionary",
+        "id": "934462383571763240"
+      },
+      "channel_id": "952942113920798791",
+      "application_id": "909122631121395764",
+      "received_at": "2022-01-22T15:14:29.011Z"
+    }
+  },
+  "functions/events/discord/message/create/prefix/createcommands.js": {
+    "event": {
+      "type": 0,
+      "tts": false,
+      "timestamp": "2022-03-05T11:56:53.063000+00:00",
+      "referenced_message": null,
+      "pinned": false,
+      "nonce": "949636594791350272",
+      "mentions": [],
+      "mention_roles": [],
+      "mention_everyone": false,
+      "member": {
+        "roles": [
+          "927991638012329984",
+          "938559524355334176",
+          "910578751543328808",
+          "922156582341578892",
+          "938559533939302430"
+        ],
+        "mute": false,
+        "joined_at": "2021-11-13T16:50:09.089000+00:00",
+        "hoisted_role": null,
+        "deaf": false
+      },
+      "id": "949636617734356992",
+      "flags": 0,
+      "embeds": [],
+      "edited_timestamp": null,
+      "content": "!createcommands",
+      "components": [],
+      "channel_id": "909122979844194377",
+      "author": {
+        "username": "Lars.",
+        "public_flags": 64,
+        "id": "119473151913623552",
+        "discriminator": "0018",
+        "avatar": "a_19623777b0e67e64333f007b61f641c9"
+      },
+      "attachments": [],
+      "guild_id": "909122979844194374"
+    }
+  }
+}

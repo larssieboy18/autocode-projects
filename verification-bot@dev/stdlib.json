@@ -1,0 +1,71 @@
+{
+  "name": "creepertown/verification-bot",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/verification.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "verification"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/guild/member/add.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/events/scheduler/hourly.js": {
+      "name": "scheduler.hourly",
+      "subtype": {
+        "offset": "0 minutes"
+      }
+    },
+    "functions/events/discord/message/button/verification/continue.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "verification_continue"
+      }
+    },
+    "functions/events/discord/message/button/verification/fail_v1.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "verification_fail_v1"
+      }
+    },
+    "functions/events/discord/message/button/verification/fail_v2.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "verification_fail_v2"
+      }
+    },
+    "functions/events/discord/message/button/verification/fail_v3.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "verification_fail_v3"
+      }
+    },
+    "functions/events/discord/message/button/verification/stop.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "verification_stop"
+      }
+    },
+    "functions/events/discord/message/button/verification/success.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "verification_success"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "guildID",
+      "description": "The guild ID you want the command to be created in"
+    },
+    {
+      "name": "freeze",
+      "description": "The amount of time someone has to wait before they can verify again (in minutes)"
+    }
+  ]
+}

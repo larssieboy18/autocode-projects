@@ -1,0 +1,34 @@
+{
+  "name": "creepertown/log-all-people-in-vc",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/invc.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "invc"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/command/vc-status.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "vc-status"
+      }
+    },
+    "functions/events/discord/voice/state/m3o-update.js": {
+      "name": "discord.voice.state.update"
+    },
+    "functions/events/discord/voice/state/update.js": {
+      "name": "discord.voice.state.update"
+    }
+  },
+  "env": [
+    {
+      "name": "guildID",
+      "description": "Guild ID you want the commands to be created in"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "urlchecking",
+  "author": "CreeperTown <info@creeper.town>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
