@@ -1,0 +1,56 @@
+{
+  "name": "creepertown/mongodb-tutorial",
+  "timeout": 15000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/add-pair.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "add-pair"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/command/find-pair.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "find-pair"
+      }
+    },
+    "functions/events/discord/command/update-pair.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "update-pair"
+      }
+    },
+    "functions/events/discord/command/delete-pair.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "delete-pair"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "urlEndpoint",
+      "description": "Your Data API endpoint"
+    },
+    {
+      "name": "apiKey",
+      "description": "Your MongoDB Data API key. Get it at https://cloud.mongodb.com/"
+    },
+    {
+      "name": "clusterName",
+      "description": "The name of your Cluster. Default is Cluster0"
+    },
+    {
+      "name": "databaseName",
+      "description": "The name of your database. Will be created if it doesn't already exist"
+    },
+    {
+      "name": "collectionName",
+      "description": "The name of your collection within the database. Will be created if it doesn't already exist"
+    }
+  ]
+}
