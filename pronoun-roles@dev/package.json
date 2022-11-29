@@ -1,0 +1,8 @@
+{
+  "name": "pronoun-roles",
+  "author": "Jacob Lee",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

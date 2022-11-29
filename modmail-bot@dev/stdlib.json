@@ -1,0 +1,85 @@
+{
+  "name": "creepertown/modmail-bot",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/dm/create.js": {
+      "name": "discord.dm.create"
+    },
+    "functions/events/discord/command/modmail.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "modmail"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/message/create/prefix/r.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!r"
+      }
+    },
+    "functions/events/discord/message/create/prefix/reply.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!reply"
+      }
+    },
+    "functions/events/discord/message/button/close_modmail.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "close_modmail"
+      }
+    },
+    "functions/events/discord/message/create/prefix/note.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!note"
+      }
+    },
+    "functions/events/discord/guild/member/remove.js": {
+      "name": "discord.guild.member.remove"
+    },
+    "functions/events/scheduler/clearChannels.js": {
+      "name": "scheduler.daily",
+      "subtype": {
+        "time": "00:00 (12:00am)",
+        "timezone": "Etc — UTC, ETC (+00:00)"
+      }
+    },
+    "functions/events/scheduler/checkChannels.js": {
+      "name": "scheduler.daily",
+      "subtype": {
+        "time": "00:00 (12:00am)",
+        "timezone": "Etc — UTC, ETC (+00:00)"
+      }
+    },
+    "functions/events/scheduler/versionChecker.js": {
+      "name": "scheduler.daily",
+      "subtype": {
+        "time": "00:00 (12:00am)",
+        "timezone": "Etc — UTC, ETC (+00:00)"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "guildID",
+      "description": "The ID of the guild you want to use modmail in. DO NOT use this is multiple servers at the same time."
+    },
+    {
+      "name": "staffroleID",
+      "description": "The ID of the role that staff members have"
+    },
+    {
+      "name": "m3oKey",
+      "description": "API key of M3O, used for logging modmails"
+    },
+    {
+      "name": "deleteAfter",
+      "description": "After how many days a closed modmail channel should be deleted. By default, the bot will also log channels to "
+    }
+  ]
+}

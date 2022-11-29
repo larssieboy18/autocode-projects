@@ -1,0 +1,22 @@
+{
+  "name": "creepertown/sticky-messages",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/scheduler/xminutely.js": {
+      "name": "scheduler.xminutely",
+      "subtype": {
+        "frequency": "15 minutes"
+      }
+    }
+  },
+  "env": [
+    {
+      "name": "channelID",
+      "description": "The channel ID you want the sticky message to appear in"
+    }
+  ]
+}

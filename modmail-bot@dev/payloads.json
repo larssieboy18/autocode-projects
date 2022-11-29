@@ -1,0 +1,18 @@
+{
+  "functions/events/discord/guild/member/remove.js": {
+    "event": {
+      "user": {
+        "id": "793188304764928023",
+        "email": "test@example.com",
+        "flags": 64,
+        "avatar": "00000000000000000000000000000000",
+        "username": "SAMPLE_USERNAME",
+        "verified": true,
+        "premium_type": 1,
+        "public_flags": 64,
+        "discriminator": "1234"
+      },
+      "guild_id": "909122979844194374"
+    }
+  }
+}

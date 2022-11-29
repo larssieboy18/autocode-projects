@@ -1,0 +1,109 @@
+{
+  "functions/events/discord/command/invc.js": {
+    "event": {
+      "version": 1,
+      "type": 2,
+      "token": "aW50ZXJhY3Rpb246OTY2MDQ1NDc3NDk1Nzk1NzQzOnlTWTV1akxWbDMyQ0VKaXUwYXVNQnRkdlRqbjBac1U4ZzRZSUpHa21uNElETmNwOEt6Zjdpc20yclBkM1dEVW5wdkMxc2h1cHYzOWJvNmJSUm42TklHck0zQUhFRGR1WmJ5a0tZRlV3d0tWTkNUQ1Q0b0wxcVpiOFVXTjVEM1lM",
+      "member": {
+        "user": {
+          "username": "Lars.",
+          "public_flags": 64,
+          "id": "119473151913623552",
+          "discriminator": "0018",
+          "avatar_decoration": null,
+          "avatar": "a_19623777b0e67e64333f007b61f641c9"
+        },
+        "roles": [
+          "927991638012329984",
+          "938559524355334176",
+          "910578751543328808",
+          "922156582341578892",
+          "938559533939302430"
+        ],
+        "premium_since": null,
+        "permissions": "4398046511103",
+        "pending": false,
+        "nick": null,
+        "mute": false,
+        "joined_at": "2021-11-13T16:50:09.089000+00:00",
+        "is_pending": false,
+        "flags": 0,
+        "deaf": false,
+        "communication_disabled_until": null,
+        "avatar": null,
+        "permission_names": [
+          "CREATE_INSTANT_INVITE",
+          "KICK_MEMBERS",
+          "BAN_MEMBERS",
+          "ADMINISTRATOR",
+          "MANAGE_CHANNELS",
+          "MANAGE_GUILD",
+          "ADD_REACTIONS",
+          "VIEW_AUDIT_LOG",
+          "PRIORITY_SPEAKER",
+          "STREAM",
+          "VIEW_CHANNEL",
+          "SEND_MESSAGES",
+          "SEND_TTS_MESSAGES",
+          "MANAGE_MESSAGES",
+          "EMBED_LINKS",
+          "ATTACH_FILES",
+          "READ_MESSAGE_HISTORY",
+          "MENTION_EVERYONE",
+          "USE_EXTERNAL_EMOJIS",
+          "VIEW_GUILD_INSIGHTS",
+          "CONNECT",
+          "SPEAK",
+          "MUTE_MEMBERS",
+          "DEAFEN_MEMBERS",
+          "MOVE_MEMBERS",
+          "USE_VAD",
+          "CHANGE_NICKNAME",
+          "MANAGE_NICKNAMES",
+          "MANAGE_ROLES",
+          "MANAGE_WEBHOOKS",
+          "MANAGE_EMOJIS",
+          "USE_SLASH_COMMANDS",
+          "REQUEST_TO_SPEAK",
+          "MANAGE_THREADS",
+          "USE_PUBLIC_THREADS",
+          "USE_PRIVATE_THREADS",
+          "USE_EXTERNAL_STICKERS",
+          "SEND_MESSAGES_IN_THREADS",
+          "START_EMBEDDED_ACTIVITIES",
+          "MODERATE_MEMBERS"
+        ]
+      },
+      "locale": "en-GB",
+      "id": "966045477495795743",
+      "guild_locale": "en-US",
+      "guild_id": "909122979844194374",
+      "data": {
+        "type": 1,
+        "resolved": {
+          "channels": {
+            "909122979844194378": {
+              "type": 2,
+              "permissions": "4398046511103",
+              "parent_id": "909122979844194376",
+              "name": "General",
+              "id": "909122979844194378"
+            }
+          }
+        },
+        "options": [
+          {
+            "value": "909122979844194378",
+            "type": 7,
+            "name": "voice_channel"
+          }
+        ],
+        "name": "invc",
+        "id": "956199034714988554"
+      },
+      "channel_id": "909122979844194377",
+      "application_id": "909122631121395764",
+      "received_at": "2022-04-19T18:39:50.257Z"
+    }
+  }
+}
